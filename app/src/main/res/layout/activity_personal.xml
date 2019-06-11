@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvreserv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/ad"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvperson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="TextView"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="TextView"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="TextView"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvhall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="TextView"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvtable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="TextView"
+        android:textSize="20sp">
+    </TextView>
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textSize="9pt"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        android:text="@string/change" />
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textSize="9pt"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        android:text="@string/exit" />
+
+</LinearLayout>

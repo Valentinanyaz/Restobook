@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_main"
+        android:title="@string/menu1">
+    </item>
+    <item
+        android:id="@+id/menu_map"
+        android:title="@string/menu2">
+    </item>
+    <item
+        android:id="@+id/menu_book"
+        android:title="@string/menu3">
+    </item>
+    <item
+        android:id="@+id/menu_personal"
+        android:title="@string/menu4">
+    </item>
+    <item
+        android:id="@+id/menu_contacts"
+        android:title="@string/menu5">
+    </item>
+    <item
+        android:id="@+id/menu_info"
+        android:title="@string/menu6">
+    </item>
+     <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu7">
+    </item>
+
+
+</menu>

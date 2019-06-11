@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greet"
+        android:padding="5pt"
+        android:layout_gravity="center"
+        android:textSize="12pt"/>
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="wrap_content"
+        android:text="@string/restobook"
+        android:onClick="onClick"
+        android:textSize="15pt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="9pt"
+            android:onClick="onClick"
+            android:layout_height="match_parent"
+            android:text="@string/book1" />
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="9pt"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:text="@string/map" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_personal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="9pt"
+            android:onClick="onClick"
+            android:layout_height="match_parent"
+            android:text="@string/per" />
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="9pt"
+            android:onClick="onClick"
+            android:layout_height="match_parent"
+            android:text="@string/cont" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ques"
+        android:padding="5pt"
+        android:layout_gravity="center"
+        android:textSize="10pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        android:padding="5pt"
+        android:layout_gravity="center"
+        android:textSize="10pt"/>
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/_79150658064_"
+        android:onClick="onClick"
+        android:textSize="10pt"/>
+
+
+
+
+</LinearLayout>

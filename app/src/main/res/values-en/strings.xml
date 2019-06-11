@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Restobook</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти или зарегестрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="person">Number of persons</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="hall">Hall</string>
+    <string name="table">Table №</string>
+    <string name="book">Book</string>
+    <string name="adress">Our address: Moscow street Scherbakovskaya, house 38</string>
+    <string name="metro">Nearest metro station Semenovskaya within 7-15 minutes</string>
+    <string name="going">You can get on foot</string>
+    <string name="questions">Any questions?</string>
+    <string name="google_maps">Open Google maps</string>
+    <string name="telephone">Our telephone</string>
+    <string name="_79150658064">+79150658064</string>
+    <string name="_3_2">This is a job on the topic \'The system of booking tables in the restaurant \' student Knyazeva Valentina group PI3-2 Financial University under the Government of the Russian Federation</string>
+    <string name="auto">Authorization:</string>
+    <string name="add_name">Enter your name</string>
+    <string name="pas">Password:</string>
+    <string name="add_pas">enter password</string>
+    <string name="tr">Attempts:</string>
+    <string name="enter">Enter</string>
+    <string name="reg">Registrate</string>
+    <string name="greet">Welcome to the system!</string>
+    <string name="restobook">RESTOBOOK</string>
+    <string name="book1">Book a table</string>
+    <string name="map">Hall map</string>
+    <string name="per">Private office</string>
+    <string name="cont">Contacts</string>
+    <string name="ques">Any questions?!</string>
+    <string name="call">Call!</string>
+    <string name="_79150658064_">+79150658064</string>
+    <string name="hall_">Choose the hall</string>
+    <string name="sea">Sea breeze</string>
+    <string name="work">Business</string>
+    <string name="party">Solemn</string>
+    <string name="change">Modify reservation</string>
+    <string name="exit">Exit</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="add_new">Registrate</string>
+    <string name="user">User:</string>
+    <string name="menu1">Main</string>
+    <string name="menu2">Hall map</string>
+    <string name="menu3">Book a table</string>
+    <string name="menu4">Private office</string>
+    <string name="menu5">Contacts</string>
+    <string name="menu6">About system</string>
+    <string name="menu7">Exit</string>
+    <string name="map1">Hall map</string>
+    <string name="ad">Your reservation has been transferred to the administrator</string>
+
+</resources>

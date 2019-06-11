@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Restobook</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти или зарегестрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="person">Количество персон</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="hall">Зал</string>
+    <string name="table">Стол №</string>
+    <string name="book">Забронировать</string>
+    <string name="adress">Наш адрес: г. Москва улица Щербаковская, дом 38</string>
+    <string name="metro">Ближайшее метро Семеновская в доступности 7-15 минут</string>
+    <string name="going">Добраться можно пешком</string>
+    <string name="questions">Остались вопросы?</string>
+    <string name="google_maps">Открыть Google maps</string>
+    <string name="telephone">Наш телефон</string>
+    <string name="_79150658064">+79150658064</string>
+    <string name="_3_2">Это зачетная работа по теме \'Система бронирвоания столиков в ресторане\' студентки Князевой Валентины группы ПИ3-2 Финасового Университета при Правительстве РФ</string>
+    <string name="auto">Авторизация</string>
+    <string name="user">Пользователь:</string>
+    <string name="add_name">введите имя</string>
+    <string name="pas">Пароль:</string>
+    <string name="add_pas">введите пароль</string>
+    <string name="tr">Попыток:</string>
+    <string name="enter">Войти</string>
+    <string name="reg">Зарегистрироваться</string>
+    <string name="greet">Добро пожаловать в систему!</string>
+    <string name="restobook">RESTOBOOK</string>
+    <string name="book1">Забронирвоать столик</string>
+    <string name="map">Схема зала</string>
+    <string name="per">Личный кабинет</string>
+    <string name="cont">Контакты</string>
+    <string name="ques">Остались вопросы или лень?!</string>
+    <string name="call">Звоните!</string>
+    <string name="_79150658064_">+79150658064</string>
+    <string name="hall_">Выберете зал</string>
+    <string name="sea">Морской бриз</string>
+    <string name="work">Деловой</string>
+    <string name="party">Торжественный</string>
+    <string name="change">Изменить бронь</string>
+    <string name="exit">Выход</string>
+    <string name="name">Имя</string>
+    <string name="login">Логин</string>
+    <string name="add_new">Зарегистрировать</string>
+    <string name="menu1">Главная</string>
+    <string name="menu2">Схема зала</string>
+    <string name="menu3">Забронировать столик</string>
+    <string name="menu4">Личный кабинет</string>
+    <string name="menu5">Контакты</string>
+    <string name="menu6">О системе</string>
+    <string name="menu7">Выход</string>
+    <string name="map1">Схема зала</string>
+    <string name="ad">Ваша бронь передана администратору</string>
+
+
+</resources>
