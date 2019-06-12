@@ -120,11 +120,23 @@ public class Book extends AppCompatActivity implements View.OnClickListener {
             startActivity(intent);
         }
         if (item.getItemId() == R.id.menu_personal) {
+            saveText();
+            loadText();
             Intent intent = new Intent(this, Personal.class);
+            intent.putExtra("person", ed_person.getText().toString());
+            intent.putExtra("date", ed_date.getText().toString());
+            intent.putExtra("time", ed_time.getText().toString());
+            intent.putExtra("hall", ed_hall.getText().toString());
+            intent.putExtra("table", ed_table.getText().toString());
             startActivity(intent);
+
         }
         if (item.getItemId() == R.id.menu_info) {
             Intent intent = new Intent(this, Info.class);
+            startActivity(intent);
+        }
+        if (item.getItemId() == R.id.menu_contacts) {
+            Intent intent = new Intent(this, Contact.class);
             startActivity(intent);
         }
         if (item.getItemId() == R.id.menu_exit) {

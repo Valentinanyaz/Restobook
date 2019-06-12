@@ -95,6 +95,10 @@ public class Contact extends AppCompatActivity {
             Intent intent = new Intent(this, Info.class);
             startActivity(intent);
         }
+        if (item.getItemId() == R.id.menu_contacts) {
+            Intent intent = new Intent(this, Contact.class);
+            startActivity(intent);
+        }
         if (item.getItemId() == R.id.menu_exit) {
             Intent i = new Intent(Intent.ACTION_MAIN);
             i.addCategory(Intent.CATEGORY_HOME);
